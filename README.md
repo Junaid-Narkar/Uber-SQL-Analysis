@@ -16,6 +16,30 @@ and payment behavior — using only MS SQL Server.
 
 ---
 
+## 🚀 How to Run This Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Junaid-Narkar/Uber-SQL-Analysis.git
+
+2. C:\Program Files\Microsoft SQL Server\MSSQL16.JunaidNarkar11\MSSQL\DATA\
+
+3. Open Uber Analysis by Junaid Narkar.sql in SSMS.
+
+4. Update the file path in the BULK INSERT statement to match your local path.
+
+5. Run the entire script top-to-bottom — it will:
+
+    A) Create the database and table
+
+    B) Load the CSV
+
+    C) Clean and convert data types
+
+6. Run all 10 business queries
+
+7. Read through the query outputs and README for insights.
+
 ## 📂 Dataset
 
 - **Source:** `ncr_ride_bookings.csv` (~24 MB)
@@ -72,6 +96,23 @@ Raw CSV had several issues that required cleaning:
 | Cancellation Rate | 25% |
 
 ---
+
+## 📸 Query Outputs
+
+### Q1: Top 3 Cities for Driver Recruitment
+![Q1 Top Cities](02.png)
+
+### Q3: Cancellation Rate by City
+![Q3 Cancellation by City](04.png)
+
+### Q4: Cancellation by Time of Day
+![Q4 Time Analysis](05.png)
+
+### Q9: Payment Method Analysis
+![Q9 Payment Methods](10.png)
+
+### Q10: Executive Summary
+![Q10 Executive Summary](13.png)
 
 ## 💡 Key Business Insights
 
